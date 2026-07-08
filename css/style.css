@@ -342,7 +342,8 @@ p  { color: var(--muted); }
 .price-note { font-size: 0.92rem; margin-bottom: 18px; }
 .price { font-size: 2.4rem; font-weight: 800; color: var(--navy-800); margin-bottom: 22px; letter-spacing: -0.03em; }
 .price-from { font-size: 0.9rem; font-weight: 600; color: var(--muted); margin-right: 6px; }
-.price-list { margin-bottom: 26px; display: grid; gap: 12px; }
+.price-unit { font-size: 0.95rem; font-weight: 600; color: var(--muted); letter-spacing: 0; }
+.price-list { margin-bottom: 0; display: grid; gap: 12px; }
 .price-list li {
   position: relative;
   padding-left: 26px;
@@ -356,6 +357,7 @@ p  { color: var(--muted); }
 }
 .price-card .btn { margin-top: auto; }
 .pricing-fine { text-align: center; font-size: 0.9rem; margin-top: 26px; }
+.pricing-cta { text-align: center; margin-top: 28px; }
 
 /* ---------- FAQ ---------- */
 .faq { display: grid; gap: 14px; }
