@@ -442,7 +442,12 @@ p  { color: var(--muted); }
   gap: 40px;
   padding: 64px 24px 40px;
 }
-.footer-logo { height: 42px; width: auto; margin-bottom: 16px; filter: brightness(0) invert(1); }
+.footer-logo {
+  height: 48px; width: auto; margin-bottom: 16px;
+  background: var(--white);
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+}
 .footer-brand p { color: #94a6ba; max-width: 34ch; }
 .footer-col h4 { color: var(--white); font-size: 0.95rem; margin-bottom: 16px; letter-spacing: 0.02em; }
 .footer-col a { display: block; color: #a9b8c8; padding: 6px 0; transition: color .2s var(--ease); }

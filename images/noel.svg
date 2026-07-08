@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="600" viewBox="0 0 480 600">
-  <rect width="480" height="600" fill="#eef1f5"/>
-  <rect x="4" y="4" width="472" height="592" fill="none" stroke="#0f2a4d" stroke-width="2" stroke-dasharray="10 8"/>
-  <circle cx="240" cy="230" r="80" fill="#c7d0dc"/>
-  <path d="M100 480 C100 380 380 380 380 480 L380 600 L100 600 Z" fill="#c7d0dc"/>
-  <text x="240" y="540" font-family="Arial, sans-serif" font-size="22" fill="#0f2a4d" text-anchor="middle">Placeholder-kuva</text>
-  <text x="240" y="568" font-family="Arial, sans-serif" font-size="16" fill="#5b6b80" text-anchor="middle">noel.jpg</text>
-</svg>
