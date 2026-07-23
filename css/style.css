@@ -28,7 +28,7 @@
 
 /* ---------- Reset ---------- */
 * { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; overflow-anchor: none; }
 body {
   font-family: var(--font);
   color: var(--ink);
@@ -491,9 +491,9 @@ p  { color: var(--muted); }
   .lead { margin-bottom: 24px; }
   .hero-actions { margin-bottom: 24px; }
   .hero-actions .btn { width: 100%; text-align: center; }
-  .glass-pane { width: min(180px, 45%); }
+  .hero-visual { display: none; }
   .form-row { grid-template-columns: 1fr; }
-  .team { grid-template-columns: 1fr; max-width: 300px; margin: 0 auto; }
+  .team { max-width: 420px; margin: 0 auto; gap: 16px; }
   .footer-inner { grid-template-columns: 1fr; gap: 28px; }
   .hero-badges { gap: 14px; }
 }

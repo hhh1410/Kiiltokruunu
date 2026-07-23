@@ -21,3 +21,12 @@ if (toggle && mobileNav) {
 // Current year in footer
 const yearEl = document.getElementById('year');
 if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+// Back to top
+const backToTop = document.querySelector('.footer-bottom a[href="#top"]');
+if (backToTop) {
+  backToTop.addEventListener('click', (e) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}
