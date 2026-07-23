@@ -304,7 +304,6 @@ p  { color: var(--muted); }
 .team-photo img { width: 100%; height: 100%; object-fit: cover; }
 .team-member figcaption { margin-top: 18px; }
 .team-name { display: block; font-weight: 800; font-size: 1.25rem; color: var(--navy-800); }
-.team-tag { display: block; font-weight: 600; color: var(--accent-dk); letter-spacing: 0.04em; margin-top: 2px; }
 
 /* ---------- Pricing ---------- */
 .pricing {
