@@ -235,6 +235,12 @@ p  { color: var(--muted); }
 .section-head { max-width: 640px; margin: 0 auto clamp(40px, 5vw, 64px); text-align: center; }
 .section-sub { font-size: 1.08rem; margin-top: 12px; }
 
+/* ---------- About ---------- */
+.about-content h3 { margin-top: 40px; margin-bottom: 14px; color: var(--navy-800); }
+.about-content h3:first-child { margin-top: 0; }
+.about-content p { margin-bottom: 16px; line-height: 1.7; }
+.about-content p:last-child { margin-bottom: 0; }
+
 /* ---------- Cards ---------- */
 .card-grid {
   display: grid;
